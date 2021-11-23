@@ -6,5 +6,6 @@ import IHP.FrameworkConfig
 
 config :: ConfigBuilder
 config = do
-    option Development
-    option (AppHostname "localhost")
+    option Production
+    option (AppHostname "naaame.ihpapp.com")
+    option (BaseUrl "https://naaame.ihpapp.com")
